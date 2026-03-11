@@ -45,6 +45,30 @@
                     </value>
                 </Operation>
 
+<!-- WEAPON RACK PATCHED TO ONLY STORE WEAPONS -->
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ASF_WeaponRack"]/building/fixedStorageSettings/filter</xpath>
+    <value>
+        <filter>
+            <categories>
+                <li>Weapons</li>
+            </categories>
+        </filter>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ASF_WeaponRack"]/building/defaultStorageSettings/filter</xpath>
+    <value>
+        <filter>
+            <categories>
+                <li>Weapons</li>
+            </categories>
+        </filter>
+    </value>
+</Operation>
+
 <!-- WOOD PATCH -->
 	<Operation Class="PatchOperationFindMod">
 		<mods>
