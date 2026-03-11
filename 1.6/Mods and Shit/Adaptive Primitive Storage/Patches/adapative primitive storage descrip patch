@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!--  Weapon Rack  -->
+
+  <!-- ORIGINAL
+  Sturdy pieces of wood lashed together with leather or fabric for storing large quantities of weaponry. Does not prevent deterioration. Prevents weaponry from affecting the beauty of its surroundings. 
+
+  Total Capacity: 8 Stacks -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ASF_WeaponRack"]/description</xpath>
+    <value>
+      <description>Sturdy pieces of wood lashed together with leather or fabric for storing large quantities of weaponry. Does not prevent deterioration. Weapons stored will have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt;
+Stack size total: 8
+Stack per tile: 4
+
+Allowed items: Weapons</description>
+    </value>
+  </Operation>
+
+
+  <!--  Woven Baskets  -->
+
+  <!-- ORIGINAL
+  A woven basket designed for storing various items. Items stored inside do not affect the beauty of their surroundings.
+
+  Total Capacity: 10 Stacks
+
+  Rotate to change appearance. -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ASF_WovenBasket"]/description</xpath>
+    <value>
+      <description>A woven basket designed for storing various items. Items stored inside will not deteriorate over time and have no impact on the beauty of their surroundings. Rotate to change appearance. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt;
+Stack size total: 6
+Stack per tile: 6
+
+Allowed items: Everything</description>
+    </value>
+  </Operation>
+
+  <!-- ORIGINAL
+  A stack of two woven baskets designed for storing various items. Items stored inside do not affect the beauty of their surroundings.
+
+  Total Capacity: 20 Stacks -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ASF_WovenBasketDouble"]/description</xpath>
+    <value>
+      <description>A stack of two woven baskets designed for storing various items. Items stored inside will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt;
+Stack size total: 12
+Stack per tile: 12
+
+Allowed items: Everything</description>
+    </value>
+  </Operation>
+
+  <!-- ORIGINAL
+  A stack of two woven baskets designed for storing various items. Items stored inside do not affect the beauty of their surroundings.
+
+  Total Capacity: 30 Stacks -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ASF_WovenBasketTriple"]/description</xpath>
+    <value>
+      <description>A stack of three woven baskets designed for storing various items. Items stored inside will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt;
+Stack size total: 18
+Stack per tile: 18
+
+Allowed items: Everything</description>
+    </value>
+  </Operation>
+
+
+  <!--  Cellars and Storage Pit  -->
+
+  <!-- ORIGINAL
+  A wooden cellar that can store a range of items. Keeps perishable items slightly cooler underground, effective at around 65F/18C. Items stored inside will never deteriorate and don't affect the beauty of their surroundings. 
+  Occupies a 3x3 area underground. 
+
+  Total Capacity: 55 Stacks -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ASF_CellarWood"]/description</xpath>
+    <value>
+      <description>A wooden cellar that can store a range of items. Keeps perishable items slightly cooler underground, effective at around 65F/18C. Items stored inside will not deteriorate over time and have no impact on the beauty of their surroundings. Occupies a 3x3 area underground. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt;
+Stack size total: 55
+Stack per tile: 55
+
+Allowed items: Everything</description>
+    </value>
+  </Operation>
+
+  <!-- ORIGINAL
+  A stone cellar stone that can store a range of items. Keeps perishable items slightly cooler underground, effective at around 74F/23C. Items stored inside will never deteriorate and don't affect the beauty of their surroundings. 
+  Occupies a 3x3 area underground. 
+
+  Total Capacity: 175 Stacks -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ASF_CellarStone"]/description</xpath>
+    <value>
+      <description>A stone cellar that can store a range of items. Keeps perishable items slightly cooler underground, effective at around 74F/23C. Items stored inside will not deteriorate over time and have no impact on the beauty of their surroundings. Occupies a 3x3 area underground. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt;
+Stack size total: 175
+Stack per tile: 175
+
+Allowed items: Everything</description>
+    </value>
+  </Operation>
+
+  <!-- ORIGINAL
+  A dirt dugout that can store a range of items. Keeps perishable items slightly cooler underground, effective at around 65F/18C. Items stored inside will never deteriorate and don't affect the beauty of their surroundings. 
+  Occupies a 1x1 area underground.
+
+  Total Capacity: 25 Stacks -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ASF_StoragePit"]/description</xpath>
+    <value>
+      <description>A dirt dugout that can store a range of items. Keeps perishable items slightly cooler underground, effective at around 65F/18C. Items stored inside will not deteriorate over time and have no impact on the beauty of their surroundings. Occupies a 1x1 area underground. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt;
+Stack size total: 25
+Stack per tile: 25
+
+Allowed items: Everything</description>
+    </value>
+  </Operation>
+
+
+  <!--  Meat Rack  -->
+
+  <!-- ORIGINAL
+  Sturdy pieces of wood lashed together with leather or fabric for storing large quantities of meat off the ground. Does not prevent meat deterioration. Doesn't prevent meat from affecting the beauty of its surroundings 
+
+  Total Capacity: 6 Stacks
+
+  Dynamic Textures -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ASF_MeatRack"]/description</xpath>
+    <value>
+      <description>Sturdy pieces of wood lashed together with leather or fabric for storing large quantities of meat off the ground. Items stored on it will deteriorate over time and still affect the beauty of their surroundings. Dynamic textures. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt;
+Stack size total: 6
+Stack per tile: 3
+
+Allowed items: Raw meat</description>
+    </value>
+  </Operation>
+
+
+  <!--  Clay Pots  -->
+
+  <!-- ORIGINAL
+  A clay pot designed for storing various items. Items stored inside do not affect the beauty of their surroundings.
+
+  Total Capacity: 3 -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ASF_UncoveredClayPot"]/description</xpath>
+    <value>
+      <description>A clay pot designed for storing various items. Items stored inside will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt;
+Stack size total: 3
+Stack per tile: 3
+
+Allowed items: Everything</description>
+    </value>
+  </Operation>
+
+  <!-- ORIGINAL
+  A clay pot designed for storing various items. Items stored inside do not affect the beauty of their surroundings.
+
+  Total Capacity: 3 -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ASF_CoveredClayPot"]/description</xpath>
+    <value>
+      <description>A clay pot designed for storing various items. Items stored inside will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt;
+Stack size total: 3
+Stack per tile: 3
+
+Allowed items: Everything</description>
+    </value>
+  </Operation>
+
+
+  <!--  Log Piles  -->
+
+  <!-- ORIGINAL
+  A designated spot to pile wood. Free to build. Deconstructing returns 100% of wood logs stored. Items stored inside will never deteriorate and don't affect the beauty of their surroundings. 
+
+  Total Capacity: 12 Stacks
+
+  Dynamic Textures -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ASF_LargeLogPile"]/description</xpath>
+    <value>
+      <description>A designated spot to pile wood. Free to build. Deconstructing returns 100% of stored logs. Items stored inside will not deteriorate over time and have no impact on the beauty of their surroundings. Dynamic textures. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt;
+Stack size total: 12
+Stack per tile: 4
+
+Allowed items: Wood logs, Raw wood and Raw dark wood</description>
+    </value>
+  </Operation>
+
+  <!-- ORIGINAL
+  A designated spot to pile wood. Free to build. Deconstructing returns 100% of wood logs stored. Items stored inside will never deteriorate and don't affect the beauty of their surroundings. 
+
+  Total Capacity: 2 Stacks
+
+  Dynamic Textures -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ASF_SmallLogPile"]/description</xpath>
+    <value>
+      <description>A designated spot to pile wood. Free to build. Deconstructing returns 100% of stored logs. Items stored inside will not deteriorate over time and have no impact on the beauty of their surroundings. Dynamic textures. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt;
+Stack size total: 2
+Stack per tile: 2
+
+Allowed items: Wood logs, Raw wood and Raw dark wood</description>
+    </value>
+  </Operation>
+
+
+  <!--  Granary  -->
+
+  <!-- ORIGINAL
+  A granary for keeping food dry. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.
+
+  Total Capacity: 54 Stacks -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ASF_Granary"]/description</xpath>
+    <value>
+      <description>A granary for keeping food dry. Items stored inside will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt;
+Stack size total: 54
+Stack per tile: 6
+
+Allowed items: Raw plant foods and Plant matter</description>
+    </value>
+  </Operation>
+
+
+  <!--  Storage Tent  -->
+
+  <!-- ORIGINAL
+  A tent that can store a variety of items. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.
+
+  Total Capacity: 27 Stacks -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ASF_StorageTent"]/description</xpath>
+    <value>
+      <description>A tent that can store a variety of items. Items stored inside will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt;
+Stack size total: 27
+Stack per tile: 3
+
+Allowed items: Everything</description>
+    </value>
+  </Operation>
+
+</Patch>
