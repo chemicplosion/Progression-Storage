@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>        
+
+    <!-- DESCRIPTION -->
+
+    <!-- ORIGINAL
+      A display case that can showcase up to 1 item. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_DisplayTable"]/description</xpath>
+        <value>
+            <description>A display case designed to showcase a single item while protecting it from deterioration. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+  Stack size total: 1 
+  Stack per tile: 1 
+
+  Allowed items: Foods, Manufactured, Raw resources, Items, Weapons and Apparel</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+      A round pedestal that can showcase up to 1 item. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_RoundPedestal"]/description</xpath>
+        <value>
+            <description>A round pedestal designed to showcase a single item while protecting it from deterioration. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+  Stack size total: 1 
+  Stack per tile: 1 
+
+  Allowed items: Foods, Manufactured, Raw resources, Items, Weapons and Apparel</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+      A meat hook that can hang up to 12 pieces of meat or corpses. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_MeatHook"]/description</xpath>
+        <value>
+            <description>A meat hook designed for hanging raw meat and corpses. Items stored on it will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+  Stack size total: 12 
+  Stack per tile: 6 
+
+  Allowed items: Raw meat and Corpses</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+      A textile rack that can hold up to 6 fabrics of various kinds. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_TextileRack"]/description</xpath>
+        <value>
+            <description>A textile rack designed to hold fabrics and leathers. Items stored on it will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+  Stack size total: 6 
+  Stack per tile: 6 
+
+  Allowed items: Textiles</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+    The safe can hold up to 6 items of various kinds. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_Safe"]/description</xpath>
+        <value>
+            <description>A sturdy safe designed for storing valuables. Items stored inside will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+Stack size total: 6 
+Stack per tile: 6 
+
+Allowed items: Foods, Manufactured, Raw resources, Items, Weapons and Apparel</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+    The drum can hold up to 6 items of various kinds. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_Drum"]/description</xpath>
+        <value>
+            <description>A heavy drum for storing a wide range of items. Items stored inside will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+Stack size total: 6 
+Stack per tile: 6 
+
+Allowed items: Foods, Manufactured, Raw resources, Items, Weapons, Apparel and Humanlike corpses</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+    A horizontal weapon rack that can display up to 12 weapons. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_HorizontalWeaponRack"]/description</xpath>
+        <value>
+            <description>A horizontal weapon rack designed for storing and displaying weapons. Items stored on it will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+Stack size total: 12 
+Stack per tile: 6 
+
+Allowed items: Weapons</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+    A vertical weapon rack that can display up to 12 weapons. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_VerticalWeaponRack"]/description</xpath>
+        <value>
+            <description>A vertical weapon rack designed for storing and displaying weapons. Items stored on it will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+Stack size total: 12 
+Stack per tile: 6 
+
+Allowed items: Weapons</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+    A weapon rack that can display up to 6 weapons. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_WeaponRack"]/description</xpath>
+        <value>
+            <description>A weapon rack designed for storing and displaying weapons. Items stored on it will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+Stack size total: 6 
+Stack per tile: 3 
+
+Allowed items: Weapons</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+    A spot that can store up to 12 corpses. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_CorpseSpot"]/description</xpath>
+        <value>
+            <description>A designated dump spot for storing corpses. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+Stack size total: 12 
+Stack per tile: 12 
+
+Allowed items: Corpses</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+    A tall crate that can hold up to 24 items of various kinds. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_TallCrate"]/description</xpath>
+        <value>
+            <description>A tall crate designed for storing high quantities of goods and valuables. Items stored inside will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+Stack size total: 24 
+Stack per tile: 6 
+
+Allowed items: Everything except Plants</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+    A large crate that can hold up to 24 items of various kinds. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_Crate"]/description</xpath>
+        <value>
+            <description>A large crate designed for storing high quantities of goods and valuables. Items stored inside will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+Stack size total: 24 
+Stack per tile: 6 
+
+Allowed items: Everything except Plants</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+    A crate that can hold up to 12 items of various kinds. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_MidCrate"]/description</xpath>
+        <value>
+            <description>A crate designed for storing high quantities of goods and valuables. Items stored inside will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+Stack size total: 12 
+Stack per tile: 6 
+
+Allowed items: Everything except Plants</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+    A small crate that can hold up to 6 items of various kinds. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_SmallCrate"]/description</xpath>
+        <value>
+            <description>A small crate designed for storing goods and valuables. Items stored inside will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+Stack size total: 6 
+Stack per tile: 6 
+
+Allowed items: Everything except Plants</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+    A pallet that can stack up to 24 items of various kinds. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_Pallet"]/description</xpath>
+        <value>
+            <description>A pallet designed for stacking a wide range of items. Items stored on it will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+Stack size total: 24 
+Stack per tile: 6 
+
+Allowed items: Everything except Plants</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+    A pallet that can stack up to 6 items of various kinds. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_MiniPallet"]/description</xpath>
+        <value>
+            <description>A mini pallet designed for stacking a wide range of items. Items stored on it will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+Stack size total: 6 
+Stack per tile: 6 
+
+Allowed items: Everything except Plants</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+    A pallet that can stack up to 12 items of various kinds. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_HalfPallet"]/description</xpath>
+        <value>
+            <description>A half pallet designed for stacking a wide range of items. Items stored on it will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+Stack size total: 12 
+Stack per tile: 6 
+
+Allowed items: Everything except Plants</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+    A open shelf that can store up to 12 items of various kinds. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_OpenShelf"]/description</xpath>
+        <value>
+            <description>An open shelf designed for storing and displaying a wide range of items. Items stored on it will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+Stack size total: 12 
+Stack per tile: 6 
+
+Allowed items: Foods, Manufactured, Raw resources, Items, Weapons and Apparel</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+    A 2-tier display shelf that can store up to 12 items of various kinds. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_TwoTierDisplayShelf"]/description</xpath>
+        <value>
+            <description>A 2-tier display shelf designed for storing and displaying a wide range of items. Items stored on it will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+Stack size total: 12 
+Stack per tile: 6 
+
+Allowed items: Foods, Manufactured, Raw resources, Items, Weapons and Apparel</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+    A display shelf that can store up to 6 items of various kinds. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_DisplayShelf"]/description</xpath>
+        <value>
+            <description>A display shelf designed for storing and displaying a wide range of items. Items stored on it will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+Stack size total: 6 
+Stack per tile: 3 
+
+Allowed items: Foods, Manufactured, Raw resources, Items, Weapons and Apparel</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+    A small display shelf that can store up to 3 items of various kinds. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_SmallDisplayShelf"]/description</xpath>
+        <value>
+            <description>A small display shelf designed for storing and displaying a wide range of items. Items stored on it will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+Stack size total: 3 
+Stack per tile: 3 
+
+Allowed items: Foods, Manufactured, Raw resources, Items, Weapons and Apparel</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+    A tall display shelf that can stack up to 12 items of various kinds. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_TallDisplayShelf"]/description</xpath>
+        <value>
+            <description>A tall display shelf designed for stacking and displaying a wide range of items. Items stored on it will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+Stack size total: 12 
+Stack per tile: 6 
+
+Allowed items: Foods, Manufactured, Raw resources, Items, Weapons and Apparel</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+    A narrow and tall display shelf that can stack up to 6 items of various kinds. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_NarrowTallDisplayShelf"]/description</xpath>
+        <value>
+            <description>A narrow tall display shelf designed for stacking and displaying a wide range of items. Items stored on it will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+Stack size total: 6 
+Stack per tile: 6 
+
+Allowed items: Foods, Manufactured, Raw resources, Items, Weapons and Apparel</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+    A clothes hanger rack that can hold up to 8 pieces of clothing. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_WideHangerShelf"]/description</xpath>
+        <value>
+            <description>A hanger shelf designed for displaying clothing. Items stored on it will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+Stack size total: 8 
+Stack per tile: 4 
+
+Allowed items: Apparel</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+    A clothes hanger rack that can hold up to 4 pieces of clothing. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_HangerShelf"]/description</xpath>
+        <value>
+            <description>A narrow hanger shelf designed for displaying clothing. Items stored on it will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+Stack size total: 4 
+Stack per tile: 4 
+
+Allowed items: Apparel</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+    A display cabinet that can store up to 8 items of various kinds. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_DisplayCabinet"]/description</xpath>
+        <value>
+            <description>A display cabinet designed for displaying a wide range of items. Items stored inside will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+Stack size total: 8 
+Stack per tile: 4 
+
+Allowed items: Foods, Manufactured, Raw resources, Items, Weapons and Apparel</description>
+        </value>
+    </Operation>
+
+    <!-- ORIGINAL
+    A narrow display cabinet that can store up to 4 items of various kinds. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="sbz_NarrowDisplayCabinet"]/description</xpath>
+        <value>
+            <description>A narrow display cabinet designed for storing and displaying a wide range of items. Items stored inside will not deteriorate over time and have no impact on the beauty of their surroundings. \n\n&lt;color=#E5E54C&gt;Storage stats:&lt;/color&gt; 
+Stack size total: 4 
+Stack per tile: 4 
+
+Allowed items: Foods, Manufactured, Raw resources, Items, Weapons and Apparel</description>
+        </value>
+    </Operation>
+
+</Patch>
